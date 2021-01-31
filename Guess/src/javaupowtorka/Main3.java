@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main3 {
 	
 	public static void main(String[] args) {
-		String[] names = new String [4];
+//		String[] names = new String [4];
 		
 		String[]names= {"Asia","Basia","Micha³","Zdzisia"};
 //		names[0]="Asia";
