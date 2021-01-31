@@ -6,25 +6,26 @@ import java.util.*;
 public class Main3 {
 	
 	public static void main(String[] args) {
-  Set<String> meals = new HashSet <>();
+  Map<String, String> nameToMeal = new HashMap<>();
   
+  nameToMeal.put("Ania", "Lody");
+  nameToMeal.put("Micha³", "Spaghetti");
+  nameToMeal.put("Piotr", "Hamburger");
+  nameToMeal.put("Asia", "Sushi");
   
-  
-   meals.add("maracuja");
-   meals.add("mango");
-   meals.add("joghurt");
-   meals.add("maracuja");
+  Set<String> names = nameToMeal.keySet();
+  for (String name: names) {
+   System.out.println(name);}
    
+   Collection<String> meals = nameToMeal.values();
    for (String meal: meals) {
 	   System.out.println(meal);
    }
-   
 
 		
 		}
 		
 		
 	}
-
 	
  
