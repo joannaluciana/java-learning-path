@@ -1,22 +1,21 @@
 package javaupowtorka;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Main3 {
 	
 	public static void main(String[] args) {
-//		String[] names = new String [4];
-		
-		String[]names= {"Asia","Basia","Micha³","Zdzisia"};
-//		names[0]="Asia";
-//		names[1]="Basia";
-		names[2]="Piotrek";
-//		names[3]="Zdzisia";
-		
-		for (int i = 0; i<names.length; i++) {
-			System.out.println(names[i]);
-		}
+  List<String> names= new ArrayList<>();
+  
+   names.add("Asia");
+   names.add("Basia");
+   names.add("Monika");
+   
+   
+   for (String name : names) {
+	   System.out.println(name);
+   }
 		
 		}
 		
