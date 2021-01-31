@@ -11,7 +11,7 @@ public class Main3 {
 		String[]names= {"Asia","Basia","Micha³","Zdzisia"};
 //		names[0]="Asia";
 //		names[1]="Basia";
-//		names[2]="Micha³";
+		names[2]="Piotrek";
 //		names[3]="Zdzisia";
 		
 		for (int i = 0; i<names.length; i++) {
