@@ -1,25 +1,25 @@
 package javaupowtorka;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.*;
 
 
 public class Main3 {
 	
 	public static void main(String[] args) {
-  List<String> names= new ArrayList<>();
+  Set<String> meals = new HashSet <>();
   
-   names.add("Asia");
-   names.add("Basia");
-   names.add("Monika");
+  
+  
+   meals.add("maracuja");
+   meals.add("mango");
+   meals.add("joghurt");
+   meals.add("maracuja");
    
-   boolean is_Contain = names.contains("Asia");
-   
-   System.out.println(is_Contain);
-   
-   for (String name : names) {
-	   System.out.println(name);
-	  
+   for (String meal: meals) {
+	   System.out.println(meal);
    }
+   
+
 		
 		}
 		
@@ -27,3 +27,4 @@ public class Main3 {
 	}
 
 	
+ 
