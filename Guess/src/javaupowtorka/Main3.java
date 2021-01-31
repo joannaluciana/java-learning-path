@@ -12,9 +12,13 @@ public class Main3 {
    names.add("Basia");
    names.add("Monika");
    
+   boolean is_Contain = names.contains("Asia");
+   
+   System.out.println(is_Contain);
    
    for (String name : names) {
 	   System.out.println(name);
+	  
    }
 		
 		}
