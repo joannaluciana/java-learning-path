@@ -34,12 +34,11 @@ public class Guest {
 	
 	
 	public void displayGuestInformation() {
-		System.out.println("Imiê" + name);
-		System.out.println("Imiê" + meal);
-		System.out.println("Imiê" + phoneNumber);
-		System.out.println("Imiê" + name);
+		System.out.println("Imiê " + name);
+		System.out.println("Posi³ek " + meal);
+		System.out.println("Numer telefonu " + phoneNumber);
 		String isVeganString = isVegan ? "tak": "nie";
-		System.out.println("Vege" + isVeganString);
+		System.out.println("Vege " + isVeganString);
 	}
 	
 
